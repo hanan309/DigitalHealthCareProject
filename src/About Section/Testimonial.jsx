@@ -34,7 +34,7 @@ const Testimonial = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((current) => (current + 1) % testimonial.length);
-    }, 5000); // Change every 5 seconds
+    }, 5000); 
     return () => clearInterval(interval);
   }, []);
 

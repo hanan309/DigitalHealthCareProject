@@ -10,12 +10,10 @@ const QualificationAwards = () => {
   return (
     <section className="bg-white text-white px-4 sm:px-6 lg:px-12 py-12">
       <div className="max-w-7xl mx-auto space-y-10">
-        {/* Section Title */}
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-blue-500">
           My Qualification & Awards
         </h2>
 
-        {/* Qualification Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {qualifications.map((item, index) => (
             <div
@@ -29,7 +27,6 @@ const QualificationAwards = () => {
           ))}
         </div>
 
-        {/* Awards Section */}
         <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
           <FaStar className="text-blue-500 text-4xl" />
           <FaTrophy className="text-blue-500 text-4xl" />

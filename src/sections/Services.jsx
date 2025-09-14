@@ -12,7 +12,6 @@ const MedicalServices = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-        {/* Service 1 */}
         <div className="bg-blue-800 rounded-xl p-6 shadow-lg space-y-4 text-center hover:scale-105 transform transition shadow-cyan-50 cursor-pointer">
           <FaClipboardCheck className="text-4xl text-white mx-auto" />
           <h3 className="text-xl font-semibold">General Health Check-Ups</h3>
@@ -30,7 +29,6 @@ const MedicalServices = () => {
           </Link>
         </div>
 
-        {/* Service 2 */}
         <div className="bg-blue-800 rounded-xl p-6 shadow-lg space-y-4 text-center hover:scale-105 transform transition shadow-cyan-50 cursor-pointer">
           <FaUserCog className="text-4xl text-white mx-auto" />
           <h3 className="text-xl font-semibold">
@@ -50,7 +48,6 @@ const MedicalServices = () => {
           </Link>
         </div>
 
-        {/* Service 3 */}
         <div className="bg-blue-800 rounded-xl p-6 shadow-lg space-y-4 text-center hover:scale-105 transform transition shadow-cyan-50 cursor-pointer">
           <FaUsers className="text-4xl text-white mx-auto" />
           <h3 className="text-xl font-semibold">Referral to Specialists</h3>

@@ -31,7 +31,6 @@ const Hero = () => {
   return (
     <section className="bg-blue-950 text-white px-6 py-12 md:flex md:items-center md:justify-between gap-10">
       
-      {/* Left: Doctor Image with Overlay */}
       <div className="relative md:w-1/2 flex justify-center">
         <img
           src={doctor}
@@ -39,7 +38,6 @@ const Hero = () => {
           className="w-full max-w-sm md:max-w-md rounded-lg shadow-lg object-cover"
         />
 
-        {/* Overlay Quotes */}
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-300 bg-opacity-60 p-4 rounded-lg text-center w-[80%] max-w-[90%] overflow-hidden">
           <p className="text-sm md:text-base font-medium leading-relaxed break-words">
             {quotes[index].text}
@@ -50,7 +48,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right: Text Content */}
       <div className="md:w-1/2 space-y-4 mt-10 md:mt-0">
         <h2 className="text-lg tracking-wide text-green-400">Hi, I'm</h2>
         <h1 className="text-2xl md:text-4xl font-bold leading-snug break-words">

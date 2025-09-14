@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer className="bg-blue-950 text-white px-4 sm:px-6 lg:px-12 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 mb-10">
-        {/* Branding & Subscription */}
         <div className="space-y-4">
           <h2 className="text-2xl font-bold text-green-400"> <TfiHeartBroken className="inline-block"/> Meditics</h2>
           <p className="text-sm text-gray-300">
@@ -24,7 +23,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-green-400 mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -35,7 +33,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Company Info */}
         <div>
           <h3 className="text-lg font-semibold text-green-400 mb-4">Company</h3>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -46,7 +43,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold text-green-400 mb-4">Contact</h3>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -57,7 +53,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="border-t border-blue-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
         <p>© Meditics 2023. All Rights Reserved.</p>
         <div className="flex items-center gap-4 text-white text-4xl">

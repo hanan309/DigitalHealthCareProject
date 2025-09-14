@@ -21,7 +21,6 @@ const WhyChooseUs = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Card 1 */}
         <div className="bg-white shadow-md rounded-lg p-6 text-left hover:shadow-lg hover:scale-105 transition duration-300 hover:bg-blue-600 hover:text-white cursor-pointer">
           <h4 className="text-xl font-bold mb-2 hover:text-white">
             Personalized Patient Care
@@ -32,7 +31,6 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        {/* Card 2 */}
         <div className="bg-white shadow-md rounded-lg p-6 text-left hover:shadow-lg hover:scale-105 transition duration-300 hover:bg-blue-600 hover:text-white cursor-pointer">
           <h4 className="text-xl font-bold mb-2 hover:text-white">
             World-Class Medical Experts
@@ -43,7 +41,6 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        {/* Card 3 */}
         <div className="bg-white shadow-md rounded-lg p-6 text-left hover:shadow-lg hover:scale-105 transition duration-300 hover:bg-blue-600 hover:text-white cursor-pointer">
           <h4 className="text-xl font-bold mb-2 hover:text-white">
             24/7 Emergency Services

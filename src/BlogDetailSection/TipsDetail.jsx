@@ -22,7 +22,7 @@ const tips = [
   {
     title: "Move Throughout the Day",
     content:
-      "If you can’t hit the gym, aim for short bursts of activity like take stairs, walking breaks, or do a 10-minute stretch session. Every bit of movement adds up.",
+      "If you can't hit the gym, aim for short bursts of activity like take stairs, walking breaks, or do a 10-minute stretch session. Every bit of movement adds up.",
   },
   {
     title: "Stay Hydrated",
@@ -32,7 +32,7 @@ const tips = [
   {
     title: "Protect Your Sleep",
     content:
-      "Stick to a consistent sleep schedule, aim for 7–8 hours of rest. Sleep is essential for immune function, mental clarity, and long-term health.",
+      "Stick to a consistent sleep schedule, aim for 7-8 hours of rest. Sleep is essential for immune function, mental clarity, and long-term health.",
   },
   {
     title: "Manage Stress Effectively",
@@ -63,7 +63,6 @@ const recentPosts = [
   },
 ];
 
-// Sidebar: Categories
 const CategoriesSidebar = () => (
   <aside className="w-full bg-gray-100 p-6 rounded-2xl shadow-md">
     <h3 className="text-xl font-bold text-gray-800 text-center mb-4">
@@ -85,7 +84,6 @@ const CategoriesSidebar = () => (
   </aside>
 );
 
-// Sidebar: Recent Posts
 const RecentPostsSidebar = () => (
   <aside className="w-full bg-gray-50 rounded-2xl shadow-md p-6">
     <h3 className="text-xl font-semibold text-gray-800 mb-4 text-center">
@@ -114,10 +112,8 @@ const RecentPostsSidebar = () => (
   </aside>
 );
 
-// Sidebar: Contact Box
 const ContactSidebar = () => (
   <aside className="w-full bg-gradient-to-br from-blue-600 to-blue-800 text-white p-6 rounded-2xl shadow-md relative overflow-hidden">
-    {/* Overlay background doctor image (optional) */}
     <div className="absolute inset-0 opacity-10 bg-cover bg-center"></div>
 
     <h3 className="text-xl font-bold mb-3 relative z-10">
@@ -142,9 +138,7 @@ const TipsDetail = () => {
   return (
     <section className="bg-white px-4 py-12 md:py-20 lg:px-32">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-4 gap-12">
-        {/* Main Blog Content */}
         <div className="lg:col-span-2 space-y-8">
-          {/* Featured Image */}
           <div className="w-full h-64 md:h-96 rounded-lg overflow-hidden shadow">
             <img
               src={detail}
@@ -153,12 +147,10 @@ const TipsDetail = () => {
             />
           </div>
 
-          {/* Blog Title */}
           <h2 className="text-3xl font-bold text-gray-800 leading-tight">
             Healthy Habits for Busy Professionals
           </h2>
 
-          {/* Meta Info */}
           <div className="flex flex-wrap items-center gap-3 text-sm text-blue-600">
             <span className="border-2 border-blue-600 rounded-2xl px-2 py-0.5">
               By Admin
@@ -173,7 +165,6 @@ const TipsDetail = () => {
             </span>
           </div>
 
-          {/* Blog Content */}
           <article className="prose prose-lg max-w-none text-gray-700">
             <p>
               Busy professionals often struggle to maintain healthy habits due
@@ -188,14 +179,12 @@ const TipsDetail = () => {
             </p>
           </article>
 
-          {/* Highlighted Quote */}
           <blockquote className="bg-blue-100 border-l-4 border-blue-500 p-4 rounded-md text-blue-800 text-sm md:text-base italic">
             “This blog post hits the mark perfectly for our target audience —
             busy professionals who care about their health but struggle with
             time.” — John Doe
           </blockquote>
 
-          {/* Practical Health Tips */}
           <div className="space-y-4 pt-6">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Practical Health Tips
@@ -216,7 +205,6 @@ const TipsDetail = () => {
           </div>
         </div>
 
-        {/* Sidebars */}
         <div className="lg:col-span-2 flex flex-col gap-8">
           <CategoriesSidebar />
           <RecentPostsSidebar />

@@ -6,7 +6,6 @@ const AboutUs = () => {
   return (
     <section className="bg-white px-4 py-12 md:py-20 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Text Content */}
         <div>
           <button className="border-2 border-blue-600 rounded-2xl">
             <h2 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mx-1 my-1">
@@ -61,10 +60,9 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Image */}
         <div className="w-full h-full md:h-full lg:h-[80%] rounded-lg overflow-hidden shadow-lg">
           <img
-            src={about1} // Replace with your actual image path
+            src={about1} 
             alt="CarePoint Team"
             className="w-full h-full object-cover"
           />

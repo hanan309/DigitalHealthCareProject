@@ -10,20 +10,18 @@ const HealthSection = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % watermarks.length);
-    }, 3000); // Change every 3 seconds
+    }, 3000); 
     return () => clearInterval(timer);
   }, []);
 
   return (
     <section className="relative bg-blue-950 text-white px-4 sm:px-6 lg:px-12 py-16 overflow-hidden">
-      {/* Background watermark */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
         <h1 className="text-6xl md:text-8xl font-bold text-white/5 uppercase tracking-widest animate-pulse">
           {watermarks[current]}
         </h1>
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
           Do You Have Health Problems

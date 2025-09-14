@@ -13,7 +13,6 @@ const BlogDetailFooter = () => {
   return (
     <footer className="bg-gray-900 text-white px-6 py-12 md:py-16 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        {/* Left Section */}
         <div>
           <Link to="/">
             <h2 className="text-2xl font-bold mb-4 text-green-500 cursor-pointer">
@@ -34,7 +33,6 @@ const BlogDetailFooter = () => {
           </div>
         </div>
 
-        {/* Middle Section */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-gray-300">
@@ -53,7 +51,6 @@ const BlogDetailFooter = () => {
           </ul>
         </div>
 
-        {/* Right Section */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Join The Newsletter</h4>
           <p className="text-gray-300 mb-4">
@@ -76,7 +73,6 @@ const BlogDetailFooter = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
         <p>© Meditics 2025, All Rights Reserved.</p>
         <div className="flex justify-center gap-6 mt-2 flex-wrap">

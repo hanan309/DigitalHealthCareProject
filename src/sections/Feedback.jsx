@@ -10,7 +10,7 @@ const testimonials = [
     title: "Medical Assistant",
     quote:
       "Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo.",
-    image: feedback1, // Replace with actual image path
+    image: feedback1,
   },
   {
     name: "Hanan Ali",
@@ -44,16 +44,13 @@ const Feedback = () => {
   return (
     <section className="bg-blue-100 text-white px-4 sm:px-6 lg:px-12 py-16">
       <div className="max-w-5xl mx-auto text-center space-y-8">
-        {/* Section Title */}
         <button className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-2 rounded-2xl cursor-pointer font-semibold">
             <FaHeart className="inline-block mr-1"/>
           Client's Testimonial
         </button>
         <h2 className="text-2xl sm:text-3xl font-bold text-blue-600">Clients Feedbacks</h2>
 
-        {/* Carousel */}
         <div className="relative flex items-center justify-center">
-          {/* Left Arrow */}
           <button
             onClick={prev}
             className="absolute left-0 sm:left-4 text-white bg-blue-800 p-2 rounded-full hover:bg-green-600"
@@ -61,7 +58,6 @@ const Feedback = () => {
             <FaArrowLeft />
           </button>
 
-          {/* Testimonial Card */}
           <div className="bg-white text-blue-950 rounded-xl p-6 shadow-lg max-w-md mx-auto space-y-4">
             <img
               src={current.image}
@@ -73,7 +69,6 @@ const Feedback = () => {
             <p className="text-sm text-gray-700 italic">{current.quote}</p>
           </div>
 
-          {/* Right Arrow */}
           <button
             onClick={next}
             className="absolute right-0 sm:right-4 text-white bg-blue-800 p-2 rounded-full hover:bg-green-600"

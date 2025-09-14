@@ -2,7 +2,6 @@ const AppointmentForm = () => (
   <section className="px-4 py-12 mx-auto bg-white max-w-2xl rounded-lg shadow">
     <h1 className="text-3xl font-bold text-center text-blue-600 mb-8">Apply For Appointment</h1>
     <form className="space-y-6">
-      {/* Name & Email */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label htmlFor="name" className="text-sm font-medium text-gray-700">Your Name</label>
@@ -24,7 +23,6 @@ const AppointmentForm = () => (
         </div>
       </div>
 
-      {/* Phone & Date */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label htmlFor="phone" className="text-sm font-medium text-gray-700">Your Phone</label>

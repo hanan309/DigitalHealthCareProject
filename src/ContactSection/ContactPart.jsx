@@ -2,7 +2,6 @@ const ContactPart = () => {
   return (
     <section className="bg-white px-4 py-12 md:py-20 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-        {/* Map Section */}
         <div className="w-full h-96 rounded-lg overflow-hidden shadow-md">
           <iframe
             title="Dhaka Map"
@@ -16,7 +15,6 @@ const ContactPart = () => {
           ></iframe>
         </div>
 
-        {/* Contact Form */}
         <div className="bg-blue-50 p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">Let's talk...</h2>
           <form className="space-y-4">

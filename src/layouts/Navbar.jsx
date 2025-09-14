@@ -3,7 +3,7 @@ import { TfiHeartBroken } from "react-icons/tfi";
 import { FaSearch, FaBars, FaTimes, FaPhoneAlt } from "react-icons/fa";
 import { IoIosClock } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
-import { Link } from "react-router-dom";   // ✅ Import Link
+import { Link } from "react-router-dom";  
 import envatoIcon from "../assets/envatoIcon.jpeg";
 
 const Navbar = () => {
@@ -11,7 +11,6 @@ const Navbar = () => {
 
   return (
     <div>
-      {/* 🔹 Top Bar */}
       <div className="w-full h-12 bg-gray-700 items-center flex px-4">
         <img
           src={envatoIcon}
@@ -29,9 +28,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* 🔹 Info Bar */}
       <div className="w-full flex flex-col md:flex-row text-white text-xs sm:text-sm lg:text-base">
-        {/* Left Section */}
         <div className="w-full bg-blue-500 flex flex-col md:flex-row md:items-center px-4 py-2 gap-2 md:gap-6">
           <div className="flex items-center">
             <FaPhoneAlt className="h-4 w-4 sm:h-5 sm:w-5 mr-2 text-white" />
@@ -53,16 +50,14 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* 🔹 Main Navbar */}
+      {/* Main Navbar */}
       <nav className="bg-white shadow-md">
         <div className="container mx-auto flex items-center justify-between px-4 py-3">
-          {/* Logo */}
           <div className="flex items-center space-x-2">
             <TfiHeartBroken className="text-3xl text-blue-600" />
             <span className="text-2xl font-bold text-gray-800">Meditics</span>
           </div>
 
-          {/* Desktop Menu */}
           <ul className="hidden lg:flex gap-6 font-medium text-gray-700">
             <li><Link to="/" className="hover:text-blue-500">HOME</Link></li>
             <li><Link to="/about" className="hover:text-blue-500">ABOUT</Link></li>
@@ -74,7 +69,6 @@ const Navbar = () => {
             <li><Link to="/contact" className="hover:text-blue-500">CONTACT</Link></li>
           </ul>
 
-          {/* Desktop Search */}
           <div className="hidden md:flex items-center space-x-2">
             <input
               type="text"
@@ -84,7 +78,6 @@ const Navbar = () => {
             <FaSearch className="text-gray-600 cursor-pointer hover:text-blue-600" />
           </div>
 
-          {/* Mobile Hamburger */}
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
@@ -92,7 +85,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* 🔹 Mobile Menu */}
         {isOpen && (
           <div className="md:hidden bg-white text-blue-600">
             <ul className="flex flex-col text-black items-center gap-4 py-4 font-medium md:bg-white sm:bg-white">
@@ -105,7 +97,6 @@ const Navbar = () => {
               <li><Link to="/blog-detail" onClick={() => setIsOpen(false)}>BLOG DETAIL</Link></li>
               <li><Link to="/contact" onClick={() => setIsOpen(false)}>CONTACT</Link></li>
               
-              {/* Mobile Search */}
               <div className="flex items-center space-x-2 px-4 w-full">
                 <input
                   type="text"

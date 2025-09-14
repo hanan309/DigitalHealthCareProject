@@ -1,5 +1,3 @@
-import React from 'react'
-
 const BlogBanner = () => {
   return (
     <section className="w-full h-40 bg-blue-600 text-white">

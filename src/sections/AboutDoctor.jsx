@@ -5,7 +5,6 @@ const AboutDoctor = () => {
   return (
     <section className="bg-white text-white px-4 sm:px-6 lg:px-12 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Left: Schedule & Emergency */}
         <div className="bg-blue-800 rounded-xl p-4 shadow-lg space-y-4 max-w-sm mx-auto text-center">
           <h2 className="text-lg font-semibold text-green-400">
             Time For Meet
@@ -29,7 +28,6 @@ const AboutDoctor = () => {
           </div>
         </div>
 
-        {/* Right: Bio & Quote */}
         <div className="space-y-6">
           <button className="border border-blue-600 rounded-2xl px-1 py-1 text-blue-600 flex items-center "> <FaHeart/> About Me</button>
           <h2 className="text-3xl font-bold text-black">
@@ -47,12 +45,10 @@ const AboutDoctor = () => {
             guiding them toward long-term wellness.
           </p>
 
-          {/* Quote */}
           <blockquote className="bg-blue-800 text-white italic text-sm p-4 rounded-lg border-l-4 border-green-400">
             “Doctor's Moto or Belief: Healing begins with listening.”
           </blockquote>
 
-          {/* Buttons */}
           <div className="flex flex-wrap gap-4 mt-4">
             <Link to="/contact">
             <button className="bg-green-600 hover:bg-green-700 transition-colors px-5 py-2 rounded-2xl font-semibold cursor-pointer">

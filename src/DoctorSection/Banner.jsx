@@ -1,4 +1,3 @@
-
 const Banner = () => {
   return (
     <section className="w-full h-40 bg-blue-600 text-white">

@@ -6,7 +6,6 @@ const OnlineConsultation = () => {
   return (
     <section className="bg-blue-800 text-white px-4 sm:px-6 lg:px-12 py-16 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        {/* Left: Text Content */}
         <div className="space-y-6">
           <h2 className="text-xl sm:text-2xl font-semibold text-white uppercase">
             YOUR HEALTH, YOUR CONVENIENCE
@@ -20,7 +19,6 @@ const OnlineConsultation = () => {
             from the comfort of your home.
           </p>
 
-          {/* Features */}
           <ol className="space-y-2 text-sm text-gray-200">
             <li>1. Speak with certified specialists in real time</li>
             <li>2. Easy appointment booking via mobile or web</li>
@@ -28,7 +26,6 @@ const OnlineConsultation = () => {
             <li>4. Available 7 days a week, including evenings</li>
           </ol>
 
-          {/* CTA Button */}
           <Link to="/contact">
             <button className="mt-6 bg-green-600 hover:bg-white hover:text-blue-600 transition-colors px-6 py-3 rounded-2xl font-semibold text-white cursor-pointer">
               Book A Video Call
@@ -36,7 +33,6 @@ const OnlineConsultation = () => {
           </Link>
         </div>
 
-        {/* Right: Mobile Screens */}
         <div className="flex justify-center lg:justify-end gap-6">
           <img
             src={doctor1}

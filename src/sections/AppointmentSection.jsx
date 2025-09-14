@@ -2,7 +2,6 @@ const AppointmentSection = () => {
   return (
     <section className="bg-blue-100 text-white px-4 sm:px-6 lg:px-12 py-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-        {/* Left: Map + Heading */}
         <div className="space-y-6">
           <button className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-2 rounded-2xl font-semibold cursor-pointer">
             Appointment
@@ -22,7 +21,6 @@ const AppointmentSection = () => {
           </div>
         </div>
 
-        {/* Right: Form */}
         <form className="bg-white rounded-xl p-6 shadow-lg space-y-4">
           <input
             type="text"
@@ -55,13 +53,11 @@ const AppointmentSection = () => {
             <option>Dermatology</option>
           </select>
 
-          {/* Checkbox */}
           <label className="flex items-center gap-2 text-sm text-blue-600">
             <input type="checkbox" className="accent-blue-600 cursor-pointer" />
             I agree terms and conditions
           </label>
 
-          {/* CTA Button */}
           <button
             type="submit"
             className="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-2xl font-semibold cursor-pointer"

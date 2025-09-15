@@ -35,7 +35,7 @@ const AboutDoctor = () => {
             My Journey in Medicine
           </h2>
           <p className="text-black text-sm leading-relaxed">
-            I'm Dr. Tushar Raje (Specialization: Internal Medicine Specialist)
+            I'm Dr.Aslam (Specialization: Internal Medicine Specialist)
             with a passion for providing holistic, evidence-based medical care.
             With over 12 years of experience, I've had the privilege of treating
             thousands of patients with empathy, accuracy, and dedication.

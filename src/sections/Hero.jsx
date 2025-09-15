@@ -51,10 +51,10 @@ const Hero = () => {
       <div className="md:w-1/2 space-y-4 mt-10 md:mt-0">
         <h2 className="text-lg tracking-wide text-green-400">Hi, I'm</h2>
         <h1 className="text-2xl md:text-4xl font-bold leading-snug break-words">
-          Meet Dr. Tushar Raja — Your Trusted Healthcare Partner
+          Dr. Aslam — Your Trusted Healthcare Partner
         </h1>
         <p className="text-gray-300 text-sm md:text-base leading-relaxed break-words">
-          Dr. Tushar is a highly experienced and compassionate General Physician
+          Dr. Aslam is a highly experienced and compassionate General Physician
           dedicated to providing personalized care and expert medical guidance.
         </p>
 
